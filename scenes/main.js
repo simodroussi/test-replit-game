@@ -5,7 +5,7 @@ const player = add([
   body()
   ])
 
-const MOVE_SPEED = 200
+const MOVE_SPEED = 150
 
 keyDown('right', ()=> {
   player.move(MOVE_SPEED, 0)
